@@ -367,7 +367,7 @@ export default new Vuex.Store({
     },
     async getSampleUserChakra({ dispatch }) {
       console.log("loading sample user");
-      await dispatch("getUserChakras", "0xdf2b2c1df64d58839320a07907d4181f336a737e");
+      await dispatch("getUserChakras", "0xcfcce06af0ee209dfa340247199057fe619c98c9");
     },
 
     async getAllTokens({ commit, state }) {
